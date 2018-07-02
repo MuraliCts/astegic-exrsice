@@ -1,0 +1,22 @@
+<div class="container-fluid bg">
+    <div class="row marketing">
+        <!-- {{asyncSelected}} -->
+        <div class="col-md-10 inputDiv">
+            <input type="text" ng-model="asyncSelected" placeholder="Enter company name" uib-typeahead="company as company.companyName for company in getCompanies($viewValue)"
+                typeahead-loading="loadingAddrs" typeahead-no-results="noResults" class="form-control noRad" typeahead-on-select="onSelect($item)">
+
+        </div>
+        <div class="col-md-2 buttonDiv">
+            <button class="btn btn-success w100p noRad" ng-disabled="!selectedItem" ng-click="goToAboutPage(asyncSelected)">Go to view
+            </button>
+        </div>
+        <div class="col-md-12">
+        <i ng-show="loadingAddrs" class="glyphicon glyphicon-refresh" style="color:white;"></i>
+    </div>
+        <div ng-show="noResults">
+            <i class="glyphicon glyphicon-remove"></i> No Results Found
+        </div>
+    </div>
+    
+ 
+</div>

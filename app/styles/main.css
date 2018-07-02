@@ -1,0 +1,153 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  min-height: 100vh !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  /* margin-bottom: 10px; */
+}
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  /* padding-bottom: 19px; */
+}
+
+/* Custom page footer */
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow>hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.detLabel {
+  margin-right: 30px;
+}
+
+.backBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.w100p{
+  width:100%;
+}
+
+/* Supporting marketing content */
+
+.marketing {
+  padding-top: 10%;
+  height: calc(100vh - 54px);
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.noRad {
+  border-radius: 0 !important;
+}
+
+.inputDiv {
+  padding-right: 0 !important;
+  padding-left:0 !important;
+}
+
+.buttonDiv {
+  padding-left: 0 !important;
+  padding-right:0 !important;
+}
+
+.marketing p+h4 {
+  margin-top: 28px;
+}
+.detailsPage{
+  padding-top:5%;
+  color:white;
+  height: calc(100vh - 54px);
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+  .marketing,.detailsPage {
+    padding-left:10% !important;
+    padding-right:10% !important;
+  }
+  
+.inputDiv {
+  padding-right: 0 !important;
+}
+
+.buttonDiv {
+  padding-left: 0 !important;
+}
+  .
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    /* margin-bottom: 30px; */
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}
